@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;500;600;700&display=swap');
+
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-iconos:#e0e0e0;
+	--color-check:#53c3c9;
+	--color-fondo-see:#f7f7f7;
+}
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 13px;
+	color: var(--color-negro);
+	line-height: 1.9;
+	
+}
+
+header{
+	background-color: #fff;
+}
+
+#top-header{
+	background-image: url("../img/bg-services-title.jpg");
+	padding: 160px;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 900;
+}
+
+#services{
+	text-align: center;
+	padding: 100px;
+}
+
+#services i{
+	color: var(--color-iconos);
+	font-size: 90px;
+	padding: 25px 0;
+}
+
+#services span i{
+	
+	color: var(--color-check);
+	font-size: 30px;
+	padding: 15px 0;
+}
+
+.titulo{
+	font-family: 'Catamaran', sans-serif ;
+	font-size: 16px;
+	padding: 10px 0;
+	font-weight: 800;
+	
+}
+
+#see{
+	background-color: var(--color-fondo-see);
+	text-align: center;
+	padding: 130px 0;
+}
+
+#see h2{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 30px;
+	margin-bottom: 12px;
+	font-weight: 600;
+}
+
+#see p{
+	margin-bottom: 80px;
+}
+
+#see .titulo{
+	margin-top: 25px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
